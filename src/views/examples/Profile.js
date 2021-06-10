@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/heEADSHOT.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -92,7 +92,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Project
                         </Button>
                         <Button
                           className="float-right"
@@ -101,7 +101,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          Experiance 
                         </Button>
                       </div>
                     </Col>
@@ -124,31 +124,28 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Shaheenaz Zuwayyed {" "}
+                      <span className="font-weight-light">, 21</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman , Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Hashmite University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        im shaheenaz zuwayyed from Amman Jordan, im fresh graduate from the hashemite university with a bachelor degree in medical laboratory sciences, i lost my passion in my field so i found out that i was interested in programming and i applied for ASAC scholarship and i hope to be an excellent programmer one day .
+im excited about tech because its the most required field nowadays and its really flexible and very wide and you can dig deep in it and there will be still  things you don't know about, so its very good for a curious person like me
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
